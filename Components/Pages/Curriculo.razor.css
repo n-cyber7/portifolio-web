@@ -1,0 +1,104 @@
+﻿.pagina-curriculo {
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+.curriculo-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.banner-curriculo {
+    background: linear-gradient(135deg, #4b2a63, #1f102b);
+    border-radius: 24px;
+    color: #f8fafc;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 14px 30px rgba(31, 16, 43, 0.18);
+}
+
+.subtitulo-curriculo {
+    color: #d8c7f3;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.banner-curriculo h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: clamp(2.3rem, 5vw, 4rem);
+    margin: 0;
+}
+
+.texto-banner-curriculo {
+    line-height: 1.8;
+    margin-top: 1.2rem;
+    max-width: 45rem;
+    color: rgba(248, 250, 252, 0.92);
+}
+
+.grade-curriculo {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-curriculo {
+    background: #ffffff;
+    border: 1px solid #e9ddff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 24px rgba(43, 24, 61, 0.06);
+}
+
+    .card-curriculo h2 {
+        color: #4b2a63;
+        font-family: "Georgia", serif;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .card-curriculo p {
+        color: #475569;
+        line-height: 1.8;
+    }
+
+.habilidades-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+    .habilidades-lista span {
+        background: #f3e8ff;
+        border-radius: 999px;
+        color: #5b21b6;
+        font-size: 0.95rem;
+        font-weight: 600;
+        padding: 0.7rem 1rem;
+    }
+
+@media (max-width: 850px) {
+
+    .grade-curriculo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .pagina-curriculo {
+        padding: 2rem 1rem;
+    }
+
+    .banner-curriculo,
+    .card-curriculo {
+        border-radius: 16px;
+        padding: 1.5rem;
+    }
+}

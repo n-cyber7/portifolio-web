@@ -1,0 +1,158 @@
+﻿@page "/minha-historia"
+
+<PageTitle>Minha História</PageTitle>
+
+<section class="pagina-historia">
+
+    <div class="historia-container">
+
+        <div class="historia-topo">
+            <p class="subtitulo-historia">Minha trajetória</p>
+
+            <h1>Como começou meu interesse por tecnologia</h1>
+
+            <p class="texto-introducao">
+                Conheça um pouco da minha caminhada, dos interesses que despertaram minha curiosidade
+                pela área de tecnologia e dos objetivos que sigo construindo no curso técnico em TI.
+            </p>
+        </div>
+
+        <section class="secao-historia">
+
+            <article class="card-historia">
+                <h2>Quem sou eu</h2>
+
+                <p>
+                    Meu nome é Naiara Rodrigues de Oliveira e atualmente curso o
+                    técnico em Tecnologia da Informação no IFRO, estudando na turma 3° B.
+                    Ao longo dessa jornada venho desenvolvendo conhecimentos em programação,
+                    lógica computacional, banco de dados e desenvolvimento de sistemas.
+                </p>
+
+                <p>
+                    Mesmo ainda no período de formação, busco constantemente aprender
+                    novas ferramentas e compreender melhor como a tecnologia está presente
+                    no cotidiano das pessoas.
+                </p>
+            </article>
+
+            <article class="card-historia">
+                <h2>Primeiros contatos com tecnologia</h2>
+
+                <p>
+                    Desde mais nova sempre tive curiosidade sobre como as coisas funcionavam.
+                    Eu gostava de observar aparelhos eletrônicos, entender conexões,
+                    descobrir para que serviam determinadas peças e imaginar como tudo aquilo era construído.
+                </p>
+
+                <p>
+                    Grande parte dessa curiosidade surgiu por influência do meu tio,
+                    que costumava montar e consertar
+                    aparelhos eletrônicos mesmo sem formação técnica.
+                </p>
+
+                <p>
+                    Ver alguém desmontando equipamentos, identificando defeitos e tentando
+                    resolver problemas apenas com experiência despertou ainda mais meu interesse
+                    pela área tecnológica.
+                </p>
+            </article>
+
+            <article class="card-historia">
+                <h2>Objetivos e futuro</h2>
+
+                <p>
+                    Atualmente busco ampliar meus conhecimentos em desenvolvimento de sistemas,
+                    programação e outras áreas relacionadas à tecnologia.
+                </p>
+
+                <p>
+                    Meu objetivo é continuar evoluindo profissionalmente,
+                    participar de projetos importantes e transformar curiosidade em experiência prática,
+                    aprendendo cada vez mais sobre o universo da tecnologia.
+                </p>
+            </article>
+
+        </section>
+
+    </div>
+
+</section>
+
+<style>
+
+    .pagina-historia {
+        min-height: 100vh;
+        padding: 3rem 1.5rem;
+        background: #f8fafc;
+        color: #1e293b;
+    }
+
+    .historia-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .subtitulo-historia {
+        color: #7c3aed;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .historia-topo h1 {
+        color: #2b183d;
+        font-family: "Georgia", "Times New Roman", serif;
+        font-size: clamp(2.2rem, 5vw, 3.6rem);
+        margin: 0;
+    }
+
+    .texto-introducao {
+        color: #475569;
+        line-height: 1.7;
+        margin-top: 1.2rem;
+        max-width: 45rem;
+    }
+
+    .secao-historia {
+        display: grid;
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .card-historia {
+        background: white;
+        border: 1px solid #e9ddff;
+        border-radius: 18px;
+        padding: 2rem;
+        box-shadow: 0 10px 24px rgba(43, 24, 61, 0.06);
+    }
+
+    .card-historia h2 {
+        color: #4b2a63;
+        font-family: "Georgia", serif;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .card-historia p {
+        color: #475569;
+        line-height: 1.8;
+        margin-bottom: 1rem;
+    }
+
+    @@media (max-width: 700px) {
+
+        .pagina-historia {
+            padding: 2rem 1rem;
+        }
+
+        .card-historia {
+            padding: 1.5rem;
+        }
+
+    }
+
+</style>
